@@ -18,7 +18,7 @@ public class WebController {
         <html>
         <head><title>CloudFolks HUB</title></head>
         <body style='text-align:center; background-color:#f0f8ff;'>
-            <h1 style='color:green;'>Welcome to CloudFolks HUB</h1>
+            <h1 style='color:green;'>Welcome to sanket Devops</h1>
             <form method='post' action='/submit'>
                 Name: <input type='text' name='name' required/><br><br>
                 Email: <input type='email' name='email' required/><br><br>
