@@ -125,9 +125,11 @@ Docker Pipeline
 Git
 Maven Integration
 Configure Tools:
-Maven → Name: MAVEN```
+Maven → Name: MAVEN
+```
 
 ---
+
 ## 🔑 Step 7: Add Docker Hub Credentials
 
 Go to:
@@ -144,7 +146,8 @@ Password: DockerHub password
 ```bash
 New Item → Pipeline
 Add your Jenkinsfile
-Save & Build```
+Save & Build
+```
 ---
 
 ## 🐳 Step 9: Docker Setup (Manual - Optional)
@@ -174,7 +177,6 @@ docker-compose up -d
 ```
 ```
 
----
 ▶️ Access Application
 ```bash
 http://<EC2-PUBLIC-IP>:8081
