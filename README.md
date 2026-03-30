@@ -28,9 +28,8 @@ Developer → GitHub → Jenkins → Docker Build → Docker Hub → AWS EC2 →
 ├── docker-compose.yml
 ├── Jenkinsfile
 ├── pom.xml
-└── src/```
-
-
+└── src/
+```
 ---
 ## ⚙️ Prerequisites
 
@@ -175,9 +174,8 @@ docker-compose up -d
 📤 Push Image
 🚀 Deploy Container
 ```
-```
-
-▶️ Access Application
+---
+## ▶️ Access Application
 ```bash
 http://<EC2-PUBLIC-IP>:8081
 ```
